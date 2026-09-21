@@ -1,0 +1,15 @@
+{
+  "model_id": "flux-2-pro",
+  "family": "FLUX.2",
+  "snapshot": "2026-09-21",
+  "unit": "1枚あたり",
+  "price_effective": {
+    "1MP": 0.024,
+    "2MP": 0.036,
+    "3MP": 0.048
+  },
+  "endpoint": "https://api.apimart.ai/v1/images/generations",
+  "poll": "/v1/tasks/{id}",
+  "language": "ja",
+  "source": "https://apimart.ai/en/pricing (extracted 2026-09-21)"
+}
