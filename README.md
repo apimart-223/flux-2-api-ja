@@ -2,7 +2,8 @@
 
 > **1枚あたり $0.024 (1MP)** の従量課金。最低 1 ドルからチャージでき、OpenAI 互換の `https://api.apimart.ai/v1` だけで完結します。
 
-**[FLUX.2 のモデルページ](https://go.apimart.ai/k-cd079c)** · **[最新の料金](https://go.apimart.ai/k-8a8a8b)** · **[API キーを取得](https://go.apimart.ai/k-421edb)**
+<p align="center"><img src="assets/01-preview.jpg" width="820" alt="FLUX.2 sample output"></p>
+**[FLUX.2 のモデルページ](https://apimart.ai/ja/model/flux-2)** · **[最新の料金](https://apimart.ai/ja/pricing)** · **[API キーを取得](https://apimart.ai/ja/keys)**
 
 出力メガピクセル単位の課金で 1MP は1枚 2.4 セント。pro / max / flex を切り替えても API は同じ。
 
@@ -20,6 +21,14 @@
 | `model` | `flux-2-pro` |
 | endpoint | `POST https://api.apimart.ai/v1/images/generations` |
 | task | GET /v1/tasks/{id} |
+
+
+## 実際に生成したサンプル（すべて実コールの結果）
+
+| sample | 費用 | prompt |
+| --- | --- | --- |
+| <img src="assets/01-preview.jpg" width="260"> | $0.024 | `雨上がりの路地、濡れた石畳に映る看板の灯り、フィルムライクな質感` |
+| <img src="assets/02-preview.jpg" width="260"> | $0.024 | `白いスタジオで撮影した陶器のカップ、柔らかな窓光、85mm レンズ` |
 
 ## 実測料金
 

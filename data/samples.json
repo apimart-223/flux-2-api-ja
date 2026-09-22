@@ -1,0 +1,27 @@
+{
+  "model": "flux-2-pro",
+  "samples": [
+    {
+      "repo": "flux-2-api-ja",
+      "slug": "01-preview",
+      "ok": true,
+      "file": "01-preview.jpg",
+      "bytes": 417040,
+      "cost": 0.024,
+      "prompt": "雨上がりの路地、濡れた石畳に映る看板の灯り、フィルムライクな質感",
+      "lang": "ja"
+    },
+    {
+      "repo": "flux-2-api-ja",
+      "slug": "02-preview",
+      "ok": true,
+      "file": "02-preview.jpg",
+      "bytes": 148557,
+      "cost": 0.024,
+      "prompt": "白いスタジオで撮影した陶器のカップ、柔らかな窓光、85mm レンズ",
+      "lang": "ja"
+    }
+  ],
+  "cost_usd": 0.048,
+  "generated_at": "2026-09-21"
+}
